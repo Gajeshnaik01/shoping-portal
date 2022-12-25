@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToUserSubCategoryTest"/>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToCartTest"/>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToWishlist"/>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToEditProductsTest"/>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToManageProductsTest"/>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToProductDetailsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test2(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToCartTest">
+        <methods>
+          <include name="classSetup"/>
+          <include name="classTearDown"/>
+          <include name="suiteTearDown"/>
+          <include name="methodTearDown"/>
+          <include name="createInsertProductToCartTest"/>
+          <include name="methodSetup"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- org.shoppingportal.admin.insertproduct.CreateInsertProductToCartTest -->
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToEditProductsTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="suiteTearDown"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetup"/>
+          <include name="suiteSetup"/>
+          <include name="createInsertProductToEditProductsTest"/>
+        </methods>
+      </class> <!-- org.shoppingportal.admin.insertproduct.CreateInsertProductToEditProductsTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="classes" name="Test1(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToCartTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="suiteTearDown"/>
+          <include name="methodTearDown"/>
+          <include name="createInsertProductToCartTest"/>
+          <include name="methodSetup"/>
+          <include name="suiteSetup"/>
+        </methods>
+      </class> <!-- org.shoppingportal.admin.insertproduct.CreateInsertProductToCartTest -->
+      <class name="org.shoppingportal.admin.insertproduct.CreateInsertProductToEditProductsTest">
+        <methods>
+          <include name="classSetup"/>
+          <include name="classTearDown"/>
+          <include name="suiteTearDown"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetup"/>
+          <include name="suiteSetup"/>
+          <include name="createInsertProductToEditProductsTest"/>
+        </methods>
+      </class> <!-- org.shoppingportal.admin.insertproduct.CreateInsertProductToEditProductsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
